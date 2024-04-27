@@ -1,5 +1,7 @@
 // Entry point of server
 
+// SETTING UP AN EXPRESS SERVER
+
 // Require dependencies
 
 // Express: provides tools for creating servers and handling HTTP requests/responses
@@ -32,3 +34,10 @@ app.get('/', (request, response) => {
 app.listen(port, () => {
     console.log(`App running on port ${port}.`)
 })
+
+
+// CONNECTING TO A POSTGRES DATABASE FROM NODE.JS
+
+
+
+// SETTING UP CRUD FUNCTIONS IN A REST API
